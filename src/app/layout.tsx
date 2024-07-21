@@ -3,11 +3,13 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 
 import { Manrope, playFairDisplaySC } from "@/lib/fonts";
+import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
   title: "Audycje z Bachmanem - Sezon 2024/2025",
   description:
-    "Twórcze Kształcenie dzieci: Edukacja Artystyczna na Rzecz Zdrowia i Dobrego Samopoczucia",
+    "Wybierając „Audycje z Bachmanem”, zapewniasz  dzieciom nie tylko rozrywkę, ale i edukację na najwyższym poziomie.",
+  authors: [{ name: "outofplace.space" }],
 };
 
 export default function RootLayout({
@@ -21,9 +23,10 @@ export default function RootLayout({
         className={cn(
           Manrope.variable,
           playFairDisplaySC.variable,
-          "overflow-x-hidden !scroll-smooth font-primary text-primary"
+          "overflow-x-hidden !scroll-smooth font-primary text-text"
         )}
       >
+        <Navbar />
         {children}
       </body>
     </html>

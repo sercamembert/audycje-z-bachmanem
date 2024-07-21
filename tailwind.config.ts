@@ -18,7 +18,7 @@ const config: Config = {
         ultra: "2560px",
       },
       colors: {
-        primary: "",
+        primary: "#F0ABFC",
         text: "#171717",
       },
       fontFamily: {
