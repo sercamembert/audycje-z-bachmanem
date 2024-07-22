@@ -4,6 +4,7 @@ import Logo from "@/components/Logo";
 import { Squash as Hamburger } from "hamburger-react";
 import Link from "next/link";
 import { motion, Variants } from "framer-motion";
+import Button from "../Button";
 
 const variants: Variants = {
   open: { opacity: 1, height: "100vh" },
@@ -121,6 +122,18 @@ const Navbar = () => {
           </motion.li>
           <motion.li variants={itemVariants}>
             <Link
+              title="Galeria"
+              href="/"
+              className="font-primary font-light mt-10"
+              onClick={() => {
+                setIsOpen(false);
+              }}
+            >
+              Galeria
+            </Link>
+          </motion.li>
+          <motion.li variants={itemVariants}>
+            <Link
               title="Zaproś nas do siebie"
               href="/"
               className="font-primary font-light mt-10"
@@ -158,23 +171,35 @@ const Navbar = () => {
           <Link
             title="Akredytacje"
             href="/"
-            className="duration-300 hover:opacity-85 lg:text-base xl:text-xl desktop:text-2xl ultra:text-3xl"
+            className="duration-300 hover:opacity-85 lg:text-sm xl:text-xl desktop:text-2xl"
           >
             Akredytacje
           </Link>
           <Link
             title="Oferta"
             href="/"
-            className="duration-300 hover:opacity-85 lg:text-base xl:text-xl desktop:text-2xl ultra:text-3xl"
+            className="duration-300 hover:opacity-85 lg:text-sm xl:text-xl desktop:text-2xl"
           >
             Oferta
           </Link>
           <Link
-            title="Plan 2024/2025"
+            title="Galeria"
             href="/"
-            className="duration-300 hover:opacity-85 lg:text-base xl:text-xl desktop:text-2xl ultra:text-3xl"
+            className="duration-300 hover:opacity-85 lg:text-sm xl:text-xl desktop:text-2xl"
           >
-            Plan
+            Galeria
+          </Link>
+          <Link
+            title="Galeria"
+            href="/"
+            className="duration-300 hover:opacity-85 lg:text-sm xl:text-xl desktop:text-2xl"
+          >
+            <Button
+              className="bg-[#F0ABFC] text-white"
+              size="LARGE"
+              text="Zaproś nas do siebie"
+              variant="DEFAULT"
+            />
           </Link>
         </nav>
       </header>

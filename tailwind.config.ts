@@ -25,6 +25,9 @@ const config: Config = {
         primary: ["var(--font-primary)"],
         secondary: ["var(--font-secondary)"],
       },
+      transitionTimingFunction: {
+        "custom-bezier": "cubic-bezier(0.16, 1, 0.3, 1)",
+      },
     },
   },
   plugins: [],
