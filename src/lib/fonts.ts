@@ -30,12 +30,12 @@ export const Manrope = localFont({
 export const playFairDisplaySC = localFont({
   src: [
     {
-      path: "../../public/fonts/Playfair_Display_SC/PlayfairDisplaySC-Italic.woff2",
+      path: "../../public/fonts/Playfair_Display/PlayfairDisplay-Italic.woff2",
       weight: "400",
       style: "italic",
     },
     {
-      path: "../../public/fonts/Playfair_Display_SC/PlayfairDisplaySC-Regular.woff2",
+      path: "../../public/fonts/Playfair_Display/PlayfairDisplay-Regular.woff2",
       weight: "400",
       style: "normal",
     },

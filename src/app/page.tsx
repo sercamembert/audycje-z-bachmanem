@@ -1,4 +1,4 @@
-import Button from "@/components/Button";
+import Button from "@/components/Buttons/Button";
 import HeroSection from "@/containers/home-page/hero-section";
 
 export default function Home() {

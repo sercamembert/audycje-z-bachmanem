@@ -4,7 +4,7 @@ import Logo from "@/components/Logo";
 import { Squash as Hamburger } from "hamburger-react";
 import Link from "next/link";
 import { motion, Variants } from "framer-motion";
-import Button from "../Button";
+import Button from "../Buttons/Button";
 
 const variants: Variants = {
   open: { opacity: 1, height: "100vh" },
@@ -171,28 +171,28 @@ const Navbar = () => {
           <Link
             title="Akredytacje"
             href="/"
-            className="duration-300 hover:opacity-85 lg:text-sm xl:text-xl desktop:text-2xl"
+            className="duration-300 hover:opacity-85 lg:text-base xl:text-lg desktop:text-xl"
           >
             Akredytacje
           </Link>
           <Link
             title="Oferta"
             href="/"
-            className="duration-300 hover:opacity-85 lg:text-sm xl:text-xl desktop:text-2xl"
+            className="duration-300 hover:opacity-85 lg:text-base xl:text-lg desktop:text-xl"
           >
             Oferta
           </Link>
           <Link
             title="Galeria"
             href="/"
-            className="duration-300 hover:opacity-85 lg:text-sm xl:text-xl desktop:text-2xl"
+            className="duration-300 hover:opacity-85 lg:text-base xl:text-lg desktop:text-xl"
           >
             Galeria
           </Link>
           <Link
             title="Galeria"
             href="/"
-            className="duration-300 hover:opacity-85 lg:text-sm xl:text-xl desktop:text-2xl"
+            className="duration-300 hover:opacity-85 lg:text-base xl:text-lg desktop:text-xl"
           >
             <Button
               className="bg-[#F0ABFC] text-white"
