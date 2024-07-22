@@ -23,13 +23,13 @@ export default function Button({
   disabled = false,
 }: ButtonProps) {
   const smallButtonClassName =
-    "flex items-center justify-center hover:brightness-75 duration-300 gap-[8px] lg:gap-[5px] xl:gap-[6px] desktop:gap-[7px] px-[12px] lg:px-[14px] xl:px-[20px] desktop:px-[24px] py-[5px] lg:py-[6px] xl:py-[8px] desktop:py-[10px] rounded-[83px] lg:rounded-[60px] xl:rounded-[84px] desktop:rounded-[100px]";
+    "flex items-center justify-center cursor-default gap-[8px] lg:gap-[5px] xl:gap-[6px] desktop:gap-[7px] px-[12px] lg:px-[14px] xl:px-[20px] desktop:px-[24px] py-[5px] lg:py-[6px] xl:py-[8px] desktop:py-[10px] rounded-[83px] lg:rounded-[60px] xl:rounded-[84px] desktop:rounded-[100px]";
 
   const smallTextClassName =
     "text-xs lg:text-[10px] xl:text-sm desktop:text-base";
 
   const largeButtonClassName =
-    "flex items-center justify-center hover:brightness-75 duration-300 gap-[6px] lg:gap-[4px] xl:gap-[6px] desktop:gap-[7px] px-[34px] lg:px-[16px] xl:px-[23px] desktop:px-[28px] py-[10px] md:py-[11px] lg:py-[9px] xl:py-[13px] desktop:py-[16px] rounded-[83px] lg:rounded-[60px] xl:rounded-[84px] desktop:rounded-[100px]";
+    "flex items-center justify-center hover:scale-[1.02] ease-custom-bezier duration-500 gap-[6px] lg:gap-[4px] xl:gap-[6px] desktop:gap-[7px] px-[34px] lg:px-[16px] xl:px-[23px] desktop:px-[28px] py-[10px] md:py-[11px] lg:py-[9px] xl:py-[13px] desktop:py-[16px] rounded-[83px] lg:rounded-[60px] xl:rounded-[84px] desktop:rounded-[100px]";
 
   const largeTextClassName = "lg:text-xs xl:text-base desktop:text-lg";
   return (
@@ -40,7 +40,7 @@ export default function Button({
           className={cn(
             size === "LARGE" ? largeButtonClassName : smallButtonClassName,
             className,
-            "text-sm lg:text-xs xl:text-lg desktop:text-xl"
+            "text-sm lg:text-xs xl:text-lg desktop:text-xl "
           )}
           {...props}
         >
