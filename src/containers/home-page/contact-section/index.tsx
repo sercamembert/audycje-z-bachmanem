@@ -4,7 +4,7 @@ import React from "react";
 
 export default function ContactSection() {
   return (
-    <div className="padding">
+    <div className="padding home-padding" id="kontakt">
       <div
         className="flex relative overflow-hidden flex-col gap-2 md:gap-3 lg:gap-5 xl:gap-6 desktop:gap-7 bg-[#F0ABFC] rounded-[40px] md:rounded-[35px] lg:rounded-[43px] xl:rounded-[60px] desktop:rounded-[65px]
       px-7 md:px-16 lg:px-[50px] xl:px-[95px] desktop:px-[112px]

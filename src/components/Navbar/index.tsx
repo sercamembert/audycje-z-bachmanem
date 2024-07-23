@@ -99,7 +99,7 @@ const Navbar = () => {
           <motion.li variants={itemVariants}>
             <Link
               title="Akredytacje"
-              href="/"
+              href="/#akredytacje"
               className="font-primary font-light mt-10"
               onClick={() => {
                 setIsOpen(false);
@@ -111,7 +111,7 @@ const Navbar = () => {
           <motion.li variants={itemVariants}>
             <Link
               title="Oferta"
-              href="/"
+              href="/#oferta-przedszkole"
               className="font-primary font-light mt-10"
               onClick={() => {
                 setIsOpen(false);
@@ -123,7 +123,7 @@ const Navbar = () => {
           <motion.li variants={itemVariants}>
             <Link
               title="Galeria"
-              href="/"
+              href="/galeria"
               className="font-primary font-light mt-10"
               onClick={() => {
                 setIsOpen(false);
@@ -135,7 +135,7 @@ const Navbar = () => {
           <motion.li variants={itemVariants}>
             <Link
               title="Zaproś nas do siebie"
-              href="/"
+              href="/#kontakt"
               className="font-primary font-light mt-10"
               onClick={() => {
                 setIsOpen(false);
@@ -170,28 +170,28 @@ const Navbar = () => {
         <nav className="hidden items-center lg:flex lg:gap-7 xl:gap-10 desktop:gap-12 ultra:gap-[70px]">
           <Link
             title="Akredytacje"
-            href="/"
+            href="/#akredytacje"
             className="duration-300 hover:opacity-85 lg:text-base xl:text-lg desktop:text-xl"
           >
             Akredytacje
           </Link>
           <Link
             title="Oferta"
-            href="/"
+            href="/#oferta-przedszkole"
             className="duration-300 hover:opacity-85 lg:text-base xl:text-lg desktop:text-xl"
           >
             Oferta
           </Link>
           <Link
             title="Galeria"
-            href="/"
+            href="/galeria"
             className="duration-300 hover:opacity-85 lg:text-base xl:text-lg desktop:text-xl"
           >
             Galeria
           </Link>
           <Link
-            title="Galeria"
-            href="/"
+            title="Kontakt"
+            href="/#kontakt"
             className="duration-300 hover:opacity-85 lg:text-base xl:text-lg desktop:text-xl"
           >
             <Button

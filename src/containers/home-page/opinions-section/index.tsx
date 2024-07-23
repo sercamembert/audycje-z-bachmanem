@@ -4,7 +4,10 @@ import React from "react";
 
 export default function OpinionsSection() {
   return (
-    <div className="flex flex-col padding gap-7 md:gap-12 lg:gap-3 xl:gap-5 desktop:gap-6 ">
+    <section
+      id="akredytacje"
+      className="flex home-padding flex-col padding gap-7 md:gap-12 lg:gap-3 xl:gap-5 desktop:gap-6 "
+    >
       <div className="flex flex-col lg:flex-row gap-3 lg:justify-between">
         <div className="w-full lg:w-[41%]">
           <h3 className="heading">Zaufali Nam</h3>
@@ -84,12 +87,12 @@ export default function OpinionsSection() {
           z <br className="hidden md:block" /> naszych audycji!
         </p>
         <Link
-          href="/"
+          href="/#kontakt"
           className="text-[#6866E9] max-w-max font-semibold text-xl lg:text-sm xl:text-xl desktop:text-2xl hover:scale-[1.02] ease-custom-bezier duration-500"
         >
           Skontaktuj się z nami -&gt;
         </Link>
       </div>
-    </div>
+    </section>
   );
 }

@@ -18,4 +18,8 @@
   .plain-text {
     @apply text-lg lg:text-sm xl:text-xl desktop:text-2xl;
   }
+
+  .home-padding {
+    @apply pt-12 lg:pt-28 xl:pt-40 desktop:pt-48;
+  }
 }

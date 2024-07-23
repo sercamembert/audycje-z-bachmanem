@@ -3,7 +3,7 @@ import React from "react";
 
 export default function AboutSection() {
   return (
-    <section className="padding flex flex-col gap-14 lg:gap-0">
+    <section className="padding home-padding flex flex-col gap-14 lg:gap-0">
       <div className="mx-auto text-center flex flex-col lg:gap-3 xl:gap-4 desktop:gap-5">
         <h2 className="heading">
           Dlaczego <span className="font-secondary italic">MY?</span>

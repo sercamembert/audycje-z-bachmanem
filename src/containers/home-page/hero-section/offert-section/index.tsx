@@ -6,9 +6,9 @@ import React from "react";
 
 export default function OfferSection() {
   return (
-    <div className="padding flex flex-col md:flex-row items-end gap-4 md:gap-10 lg:gap-12 xl:gap-[70px] desktop:gap-20">
+    <section className="padding flex flex-col md:flex-row items-end gap-4 md:gap-10 lg:gap-12 xl:gap-[70px] desktop:gap-20">
       <Link
-        href="/"
+        href="/#oferta-szkola"
         className="bg-[#BBF7D0] hover:scale-[1.01] ease-custom-bezier duration-500 group w-full overflow-hidden md:w-[31.75%] relative px-7 md:px-4 lg:px-5 xl:px-7 desktop:px-8 py-9 md:py-4 lg:py-5 xl:py-8 desktop:py-9
     rounded-[40px] md:rounded-[35px] lg:rounded-[43px] xl:rounded-[60px] desktop:rounded-[65px]
     min-h-[254px] md:min-h-[188px] lg:min-h-[216px] xl:min-h-[304px] desktop:min-h-[364px]"
@@ -31,7 +31,7 @@ export default function OfferSection() {
         <ArrowButton className="absolute rounded-[50%] z-20 top-4 md:top-3 lg:top-4 xl:top-5 desktop:top-6 right-5 md:right-4 lg:right-5 xl:right-6 desktop:right-8" />
       </Link>
       <Link
-        href="/"
+        href="/#oferta-przedszkole"
         className="bg-[#F0ABFC] hover:scale-[1.01] ease-custom-bezier duration-500 group overflow-hidden w-full md:w-[31.75%] relative flex flex-col px-7 md:px-4 lg:px-5 xl:px-7 desktop:px-8 py-9 md:pt-4 lg:py-5 xl:py-8 desktop:py-9
     rounded-[40px] md:rounded-[35px] lg:rounded-[43px] xl:rounded-[60px] desktop:rounded-[65px]
     min-h-[254px] md:min-h-[229px] lg:min-h-[280px] xl:min-h-[393px] desktop:min-h-[472.65px]"
@@ -55,7 +55,7 @@ export default function OfferSection() {
         <ArrowButton className="absolute rounded-[50%] z-20 top-4 md:top-auto md:bottom-3 lg:bottom-4 xl:bottom-5 desktop:bottom-6 right-5 md:right-4 lg:right-5 xl:right-6 desktop:right-8" />
       </Link>
       <Link
-        href="/"
+        href="/#oferta-indywidualna"
         className="bg-[#D8FDB8] hover:scale-[1.01] ease-custom-bezier duration-500 group w-full overflow-hidden md:w-[36.5%] relative flex flex-col px-7 md:px-4 lg:px-5 xl:px-7 desktop:px-8 py-9 md:pt-4 lg:py-5 xl:py-8 desktop:py-9
     rounded-[40px] md:rounded-[35px] lg:rounded-[43px] xl:rounded-[60px] desktop:rounded-[65px]
     min-h-[254px] md:min-h-[156px] lg:min-h-[191px] xl:min-h-[269px] desktop:min-h-[323px]"
@@ -81,6 +81,6 @@ export default function OfferSection() {
       <div className="md:hidden w-full">
         <PromotionalVideo />
       </div>
-    </div>
+    </section>
   );
 }

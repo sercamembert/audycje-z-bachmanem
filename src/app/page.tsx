@@ -1,4 +1,3 @@
-import Button from "@/components/Buttons/Button";
 import HeroSection from "@/containers/home-page/hero-section";
 import AboutSection from "@/containers/home-page/about-section";
 import OpinionsSection from "@/containers/home-page/opinions-section";
@@ -22,6 +21,7 @@ import NumioSection from "@/containers/home-page/numio-section";
 export default function Home() {
   const offerSections = [
     {
+      id: "oferta-przedszkole",
       title: "Oferta skierowana do dzieci w wieku przedszkolnym",
       subtitle: "Muzyczne Bajki z Bachmanem!",
       elements: [
@@ -46,6 +46,7 @@ export default function Home() {
       imageAlt: "Audycje z Bachmanem",
     },
     {
+      id: "oferta-szkola",
       title: "Oferta skierowana do dzieci w wieku szkolnym",
       subtitle: "Interaktywne koncerty z Bachmanem!",
       elements: [
@@ -70,6 +71,7 @@ export default function Home() {
       imageAlt: "Interaktywne koncerty z Bachmanem",
     },
     {
+      id: "oferta-indywidualna",
       title: "Oferta Indywidualna",
       subtitle: "Unikalne koncerty na zamówienie!",
       text: "Chcesz zorganizować wyjątkowe wydarzenie? „Audycje z Bachmanem” oferują dostosowane do Twoich potrzeb koncerty i programy muzyczne, które uczynią każde wydarzenie niezapomnianym przeżyciem! Co oferujemy?",
@@ -97,13 +99,14 @@ export default function Home() {
   ];
 
   return (
-    <main className="flex flex-col gap-12 lg:gap-28 xl:gap-40 desktop:gap-48 pt-[87px] lg:pt-[98px] xl:pt-[130px] desktop:pt-[147px] mb-[200px]">
+    <main className="flex flex-col  pt-[87px] lg:pt-[98px] xl:pt-[130px] desktop:pt-[147px] mb-[200px]">
       <HeroSection />
       <AboutSection />
       <OpinionsSection />
       {offerSections.map((offer, index) => (
         <OfferSection
           key={index}
+          id={offer.id}
           title={offer.title}
           subtitle={offer.subtitle}
           text={offer.text}

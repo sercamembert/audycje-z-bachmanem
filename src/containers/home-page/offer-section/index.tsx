@@ -10,6 +10,7 @@ interface ElementProps {
 }
 
 interface OfferSectionProps {
+  id: string;
   title: string;
   subtitle: string;
   text?: string;
@@ -20,6 +21,7 @@ interface OfferSectionProps {
 }
 
 export default function OfferSection({
+  id,
   title,
   subtitle,
   text,
@@ -29,7 +31,10 @@ export default function OfferSection({
   imageAlt,
 }: OfferSectionProps) {
   return (
-    <section className="padding flex flex-col md:flex-row gap-7 md:gap-0 md:justify-between">
+    <section
+      id={id}
+      className="padding home-padding flex flex-col md:flex-row gap-7 md:gap-0 md:justify-between"
+    >
       <div className="flex flex-col gap-7 xl:gap-10 desktop:gap-12 w-full md:w-[70.25%] lg:w-[56%]">
         <div>
           <h3 className="font-medium md:!leading-snug text-4xl xl:text-5xl desktop:text-6xl ">
@@ -83,7 +88,7 @@ export default function OfferSection({
             </p>
           </div>
           <Link
-            href="/"
+            href="/#kontakt"
             className="text-[#6866E9] max-w-max font-semibold text-xl lg:text-sm xl:text-xl desktop:text-2xl inline-block"
           >
             <p className="hover:scale-[1.02] ease-custom-bezier duration-500 max-w-max">

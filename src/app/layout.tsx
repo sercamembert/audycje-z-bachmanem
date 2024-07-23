@@ -21,12 +21,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pl">
+    <html lang="pl" className="!scroll-smooth">
       <body
         className={cn(
           Manrope.variable,
           playFairDisplaySC.variable,
-          "overflow-x-hidden !scroll-smooth font-primary text-text"
+          "overflow-x-hidden font-primary text-text"
         )}
       >
         <Navbar />
