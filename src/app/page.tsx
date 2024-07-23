@@ -99,7 +99,7 @@ export default function Home() {
   ];
 
   return (
-    <main className="flex flex-col  pt-[87px] lg:pt-[98px] xl:pt-[130px] desktop:pt-[147px] mb-[200px]">
+    <main className="flex flex-col  lg:gap-[32px] xl:gap-[60px] desktop:gap-[92px] pt-[87px] lg:pt-[98px] xl:pt-[130px] desktop:pt-[147px] mb-[200px]">
       <HeroSection />
       <AboutSection />
       <OpinionsSection />

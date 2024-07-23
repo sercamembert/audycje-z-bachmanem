@@ -24,3 +24,5 @@ export { default as MessageIcon } from "./MessageIcon.svg";
 export { default as Contact } from "./Contact.svg";
 export { default as ContactStar } from "./ContactStar.svg";
 export { default as Numio } from "./Numio.svg";
+export { default as Facebook } from "./Facebook.svg";
+export { default as Instagram } from "./Instagram.svg";

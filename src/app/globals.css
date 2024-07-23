@@ -20,6 +20,10 @@
   }
 
   .home-padding {
-    @apply pt-12 lg:pt-28 xl:pt-40 desktop:pt-48;
+    @apply pt-[70px] lg:pt-[80px] xl:pt-[100px];
+  }
+
+  .footer-paragraph {
+    @apply text-[16px] md:text-[13px] lg:text-[12px] xl:text-[15px] 2xl:text-[17px] desktop:text-[21px] ultra:text-[35px];
   }
 }

@@ -6,6 +6,7 @@ import { Manrope, playFairDisplaySC } from "@/lib/fonts";
 import Navbar from "@/components/Navbar";
 import Providers from "@/components/Providers";
 import { Toaster } from "@/components/Ui/toaster";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Audycje z Bachmanem - Sezon 2024/2025",
@@ -31,6 +32,7 @@ export default function RootLayout({
       >
         <Navbar />
         <Providers>{children}</Providers>
+        <Footer />
         <Toaster />
       </body>
     </html>

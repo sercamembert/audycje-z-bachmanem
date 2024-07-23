@@ -152,12 +152,13 @@ const Navbar = () => {
           isScrolled && !isOpen ? "bg-white" : ""
         }`}
       >
-        <Logo
-          className={`${
-            isOpen && "hidden"
-          } w-[40px] lg:w-[47.5px] xl:w-[55px] desktop:w-[70px] ultra:w-[80px]`}
-        />
-
+        <Link href="/" aria-label="audycjezbachmanem.pl">
+          <Logo
+            className={`${
+              isOpen && "hidden"
+            } w-[40px] lg:w-[47.5px] xl:w-[55px] desktop:w-[70px] ultra:w-[80px]`}
+          />
+        </Link>
         <div className="lg:hidden" ref={hamburgerRef}>
           <Hamburger
             toggled={isOpen}
