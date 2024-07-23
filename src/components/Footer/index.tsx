@@ -51,12 +51,14 @@ const Footer = () => {
               <Link
                 href="https://www.facebook.com/audycjemuzycznezbachmanem"
                 target="_blank"
+                aria-label="Facebook"
               >
                 <Facebook className="size-8 md:size-6 xl:size-8 desktop:size-9" />
               </Link>
               <Link
                 href="https://www.instagram.com/audycje_z_bachmanem"
                 target="_blank"
+                aria-label="Instagram"
               >
                 <Instagram className="size-8 md:size-6 xl:size-8 desktop:size-9" />
               </Link>
@@ -94,7 +96,8 @@ const Footer = () => {
           title="outofplace"
           target="_blank"
           href="https://outofplace.space/"
-          className="opacity-50 text-center text-[11px] md:text-[8.53px] lg:text-[11.38px] xl:text-[12.22px] 2xl:text-[14px] 3xl:text-[15.07px] desktop:text-[17.11px] ultra:text-[26px]"
+          aria-label="outofplace"
+          className="opacity-80 text-center text-[11px] md:text-[8.53px] lg:text-[11.38px] xl:text-[12.22px] 2xl:text-[14px] 3xl:text-[15.07px] desktop:text-[17.11px] ultra:text-[26px]"
         >
           Strona internetowa wykonana przez outofplace.space
         </Link>

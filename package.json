@@ -24,9 +24,11 @@
     "npm": "^10.8.2",
     "react": "^18",
     "react-dom": "^18",
+    "react-photo-album": "^2.4.1",
     "react-player": "^2.16.0",
     "tailwind-merge": "^2.4.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "yet-another-react-lightbox": "^3.21.1"
   },
   "devDependencies": {
     "@types/node": "^20",
