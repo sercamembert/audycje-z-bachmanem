@@ -10,7 +10,9 @@ export default function OpinionsSection() {
     >
       <div className="flex flex-col lg:flex-row gap-3 lg:justify-between">
         <header className="w-full lg:w-[41%]">
-          <h3 className="heading">Zaufali Nam</h3>
+          <h3 className="font-medium inline-block relative z-10 text-5xl lg:text-[51px] xl:text-7xl desktop:text-[86px] leading-[55px] lg:leading-[61px] xl:leading-[86px] desktop:leading-[103px]">
+            Zaufali Nam
+          </h3>
           <p className="font-secondary italic text-3xl lg:text-4xl xl:text-5xl desktop:text-6xl mt-2 md:mt-0.5">
             Nasze Akredytacje!
           </p>

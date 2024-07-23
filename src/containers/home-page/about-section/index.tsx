@@ -5,7 +5,7 @@ export default function AboutSection() {
   return (
     <section className="padding home-padding flex flex-col gap-14 lg:gap-0">
       <header className="mx-auto text-center flex flex-col lg:gap-3 xl:gap-4 desktop:gap-5">
-        <h2 className="heading">
+        <h2 className="font-medium inline-block relative z-10 text-5xl lg:text-[51px] xl:text-7xl desktop:text-[86px] leading-[55px] lg:leading-[61px] xl:leading-[86px] desktop:leading-[103px]">
           Dlaczego <span className="font-secondary italic">MY?</span>
         </h2>
         <p className="hidden lg:block paragraph text-text-light">

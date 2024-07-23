@@ -7,10 +7,6 @@
     @apply px-[20px] sm:px-[80px] md:px-[50px] lg:px-[105px] 2lg:px-[170px] xl:px-[150px] desktop:px-[180px] ultra:px-[450px];
   }
 
-  .heading {
-    @apply font-medium inline-block relative z-10 text-5xl lg:text-[51px] xl:text-7xl desktop:text-[86px] leading-[55px] lg:leading-[61px] xl:leading-[86px] desktop:leading-[103px];
-  }
-
   .paragraph {
     @apply text-lg md:text-xs lg:text-sm xl:text-xl desktop:text-2xl;
   }

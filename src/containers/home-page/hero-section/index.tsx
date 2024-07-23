@@ -9,7 +9,9 @@ export default function HeroSection() {
     <section className="relative flex flex-col gap-6 md:gap-[52px] lg:gap-11 xl:gap-14 desktop:gap-[70px]">
       <header className="relative padding">
         <div className="relative max-w-max">
-          <h1 className="heading">Audycje z Bachmanem</h1>
+          <h1 className="font-medium inline-block relative z-10 text-5xl lg:text-[51px] xl:text-7xl desktop:text-[86px] leading-[55px] lg:leading-[61px] xl:leading-[86px] desktop:leading-[103px]">
+            Audycje z Bachmanem
+          </h1>
           <Puddle className="absolute z-0 left-0 md:left-auto md:-right-1 -bottom-2 xl:-bottom-4 desktop:-bottom-5 w-[279px] lg:w-[320px] xl:w-[451px] desktop:w-[541px]" />
         </div>
         <p className="font-secondary italic text-4xl xl:text-5xl desktop:text-6xl leading-[46px] xl:leading-[48px] desktop:leading-[74px] mt-3 lg:mt-1 xl:mt-[5px]">
