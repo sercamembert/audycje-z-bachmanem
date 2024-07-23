@@ -1,7 +1,7 @@
 import React from "react";
 import OfferSection from "./offert-section";
 import Button from "@/components/Buttons/Button";
-import { Puddle, Line, Blob, Video } from "@/components/Svgs";
+import { Puddle, Line, Blob } from "@/components/Svgs";
 import PromotionalVideo from "@/components/PromotionalVideo";
 
 export default function HeroSection() {
