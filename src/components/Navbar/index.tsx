@@ -195,7 +195,7 @@ const Navbar = () => {
             className="duration-300 hover:opacity-85 lg:text-base xl:text-lg desktop:text-xl"
           >
             <Button
-              className="bg-[#F0ABFC] text-white"
+              className="bg-[#F0ABFC] text-black"
               size="LARGE"
               text="Zaproś nas do siebie"
               variant="DEFAULT"

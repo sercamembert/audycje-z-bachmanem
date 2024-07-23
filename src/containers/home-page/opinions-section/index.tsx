@@ -20,7 +20,7 @@ export default function OpinionsSection() {
           </p>
         </div>
         <div
-          className="bg-[#BA62FF] relative overflow-hidden lg:w-[52%] text-white rounded-[40px] md:rounded-[35px] lg:rounded-[43px] xl:rounded-[60px] desktop:rounded-[65px]
+          className="bg-[#B12EFC] relative overflow-hidden lg:w-[52%] text-white rounded-[40px] md:rounded-[35px] lg:rounded-[43px] xl:rounded-[60px] desktop:rounded-[65px]
         p-6 lg:7 xl:p-10 desktop:p-11 lg:pb-11 xl:pb-16 desktop:pb-20"
         >
           <p className="font-medium text-2xl lg:text-xl xl:text-3xl desktop:text-4xl xl:leading-snug desktop:leading-snug">
@@ -43,7 +43,7 @@ export default function OpinionsSection() {
           Opinie naszych <br /> klientów:
         </p>
         <div
-          className="bg-[#6872FF] w-full md:w-[50.5%] lg:w-[44%]  text-white rounded-[40px] md:rounded-[35px] lg:rounded-[43px] xl:rounded-[60px] desktop:rounded-[65px]
+          className="bg-[#6866E9] w-full md:w-[50.5%] lg:w-[44%]  text-white rounded-[40px] md:rounded-[35px] lg:rounded-[43px] xl:rounded-[60px] desktop:rounded-[65px]
         p-6 lg:7 xl:p-10 desktop:p-11 lg:pb-11 xl:pb-16 desktop:pb-20"
         >
           <p className="font-medium text-2xl lg:text-xl xl:text-3xl desktop:text-4xl xl:leading-snug desktop:leading-snug">
@@ -60,7 +60,7 @@ export default function OpinionsSection() {
           </p>
         </div>
         <div
-          className="bg-[#689898] hidden md:block w-full md:w-[45%] lg:w-[36%]  text-white rounded-[40px] md:rounded-[35px] lg:rounded-[43px] xl:rounded-[60px] desktop:rounded-[65px]
+          className="bg-[#647B7C] hidden md:block w-full md:w-[45%] lg:w-[36%]  text-white rounded-[40px] md:rounded-[35px] lg:rounded-[43px] xl:rounded-[60px] desktop:rounded-[65px]
         p-6 lg:7 xl:p-10 desktop:p-11 lg:pb-11 xl:pb-16 desktop:pb-20"
         >
           <p className="font-medium text-2xl lg:text-xl xl:text-3xl desktop:text-4xl xl:leading-snug desktop:leading-snug">
@@ -78,14 +78,14 @@ export default function OpinionsSection() {
       </div>
 
       <div className="flex flex-col gap-2 lg:gap-3 xl:gap-5 desktop:gap-6">
-        <p className="plain-text text-text-light">
+        <p className="plain-text text-text-light font-medium">
           Dołącz do grona zadowolonych szkół i{" "}
           <br className="hidden md:block" /> przedszkoli, które już skorzystały
           z <br className="hidden md:block" /> naszych audycji!
         </p>
         <Link
           href="/"
-          className="text-[#6872FF] max-w-max font-semibold text-xl lg:text-sm xl:text-xl desktop:text-2xl hover:scale-[1.02] ease-custom-bezier duration-500"
+          className="text-[#6866E9] max-w-max font-semibold text-xl lg:text-sm xl:text-xl desktop:text-2xl hover:scale-[1.02] ease-custom-bezier duration-500"
         >
           Skontaktuj się z nami -&gt;
         </Link>
