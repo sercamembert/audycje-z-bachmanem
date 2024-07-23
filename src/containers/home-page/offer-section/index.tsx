@@ -84,9 +84,11 @@ export default function OfferSection({
           </div>
           <Link
             href="/"
-            className="text-[#6866E9]  max-w-max font-semibold text-xl lg:text-sm xl:text-xl desktop:text-2xl hover:scale-[1.02] ease-custom-bezier duration-500"
+            className="text-[#6866E9] max-w-max font-semibold text-xl lg:text-sm xl:text-xl desktop:text-2xl inline-block"
           >
-            Zaproś nas do siebie -&gt;
+            <p className="hover:scale-[1.02] ease-custom-bezier duration-500 max-w-max">
+              Zaproś nas do siebie -&gt;
+            </p>
           </Link>
         </div>
       </div>
