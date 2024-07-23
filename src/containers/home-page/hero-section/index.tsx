@@ -7,7 +7,7 @@ import PromotionalVideo from "@/components/PromotionalVideo";
 export default function HeroSection() {
   return (
     <section className="relative flex flex-col gap-6 md:gap-[52px] lg:gap-11 xl:gap-14 desktop:gap-[70px]">
-      <div className="relative padding">
+      <header className="relative padding">
         <div className="relative max-w-max">
           <h1 className="heading">Audycje z Bachmanem</h1>
           <Puddle className="absolute z-0 left-0 md:left-auto md:-right-1 -bottom-2 xl:-bottom-4 desktop:-bottom-5 w-[279px] lg:w-[320px] xl:w-[451px] desktop:w-[541px]" />
@@ -34,10 +34,10 @@ export default function HeroSection() {
             variant="DEFAULT"
           />
         </div>
-      </div>
+      </header>
       <Line className="hidden md:block w-full absolute z-[-999] md:max-h-[216px] xl:max-h-[305px] desktop:max-h-[365px] md:top-[164px] lg:top-[132px] xl:top-[187px] desktop:top-[224px]" />
       {/* Video section */}
-      <div className="hidden md:block absolute right-0 -top-[61px] lg:-top-[77px] xl:-top-[110px] desktop:-top-[130px]">
+      <aside className="hidden md:block absolute right-0 -top-[61px] lg:-top-[77px] xl:-top-[110px] desktop:-top-[130px]">
         <div className="flex items-end">
           <p className="font-light text-text-light text-xs xl:text-lg desktop:text-xl md:mb-[71px] lg:mb-[88px] xl:mb-[123px] desktop:mb-[150px]">
             Zobacz nasz krótki <br />
@@ -49,7 +49,7 @@ export default function HeroSection() {
         <div className="absolute bottom-[97px] lg:bottom-[103px] xl:bottom-[170px] desktop:bottom-[198px] md:left-[87px] lg:left-[83px] xl:left-[118px] desktop:left-[141px]">
           <PromotionalVideo />
         </div>
-      </div>
+      </aside>
       {/* Offer section */}
       <OfferSection />
     </section>

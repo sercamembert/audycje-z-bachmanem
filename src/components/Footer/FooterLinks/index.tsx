@@ -1,8 +1,6 @@
 import Link from "next/link";
 import React from "react";
 
-interface Props {}
-
 const FooterLinks = () => {
   return (
     <div

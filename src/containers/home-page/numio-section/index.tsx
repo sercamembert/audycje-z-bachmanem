@@ -4,7 +4,7 @@ import React from "react";
 
 export default function NumioSection() {
   return (
-    <div className="padding home-padding flex flex-col items-center gap-6 lg:gap-4 xl:gap-6 desktop:gap-7">
+    <article className="padding home-padding flex flex-col items-center gap-6 lg:gap-4 xl:gap-6 desktop:gap-7">
       <Numio className="w-[55px] lg:w-[40px] xl:w-[55px] desktop:w-[66px]" />
       <p className="opacity-80 text-center text-lg lg:text-sm xl:text-xl desktop:text-2xl">
         Projekt „Audycje z Bachmanem” jest realizowany przez{" "}
@@ -23,6 +23,6 @@ export default function NumioSection() {
       >
         www.numio.pl
       </Link>
-    </div>
+    </article>
   );
 }

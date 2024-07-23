@@ -11,9 +11,15 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Audycje z Bachmanem - Sezon 2024/2025",
   description:
-    "Wybierając „Audycje z Bachmanem”, zapewniasz  dzieciom nie tylko rozrywkę, ale i edukację na najwyższym poziomie.",
+    "Dołącz do nas na Audycjach z Bachmanem w sezonie 2024/2025! Oferujemy interaktywne koncerty i edukacyjne programy muzyczne dla dzieci.",
   authors: [{ name: "outofplace.space" }],
-  // audycjezbachmanem
+  alternates: {
+    canonical: "https://www.audycjezbachmanem.pl",
+  },
+  openGraph: {
+    type: "website",
+    url: "https://www.audycjezbachmanem.pl",
+  },
 };
 
 export default function RootLayout({

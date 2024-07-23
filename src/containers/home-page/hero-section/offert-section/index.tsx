@@ -13,7 +13,7 @@ export default function OfferSection() {
     rounded-[40px] md:rounded-[35px] lg:rounded-[43px] xl:rounded-[60px] desktop:rounded-[65px]
     min-h-[254px] md:min-h-[188px] lg:min-h-[216px] xl:min-h-[304px] desktop:min-h-[364px]"
       >
-        <div className="flex flex-col w-full relative z-10">
+        <article className="flex flex-col w-full relative z-10">
           <p className="font-secondary italic text-xl md:text-sm lg:text-base xl:text-2xl desktop:text-3xl ">
             Oferta dla
           </p>
@@ -26,7 +26,7 @@ export default function OfferSection() {
             śpiew, <br className="hidden lg:block" /> rytmy i edukacyjne
             <br className="hidden lg:block" /> zagadki.
           </p>
-        </div>
+        </article>
         <Flower1 className="absolute -bottom-14 md:bottom-0 right-5 md:right-0 w-[146px] md:w-[85px] lg:w-[85px] xl:w-[120px] desktop:w-[155px] z-0" />
         <ArrowButton className="absolute rounded-[50%] z-20 top-4 md:top-3 lg:top-4 xl:top-5 desktop:top-6 right-5 md:right-4 lg:right-5 xl:right-6 desktop:right-8" />
       </Link>
@@ -36,7 +36,7 @@ export default function OfferSection() {
     rounded-[40px] md:rounded-[35px] lg:rounded-[43px] xl:rounded-[60px] desktop:rounded-[65px]
     min-h-[254px] md:min-h-[229px] lg:min-h-[280px] xl:min-h-[393px] desktop:min-h-[472.65px]"
       >
-        <div className="flex flex-col relative z-10">
+        <article className="flex flex-col relative z-10">
           <p className="font-secondary italic text-xl md:text-sm lg:text-base xl:text-2xl desktop:text-3xl ">
             Oferta dla
           </p>
@@ -50,7 +50,7 @@ export default function OfferSection() {
             <br className="hidden lg:block" /> poprzez ruch i grę na{" "}
             <br className="hidden lg:block" /> instrumentach.
           </p>
-        </div>
+        </article>
         <Heart className="absolute bottom-3 md:bottom-2 lg:bottom-3 xl:bottom-4 desktop:bottom-7 right-5 md:right-0 md:left-3 xl:left-6 w-[92px] md:w-[74px] lg:w-[91px] xl:w-[128px] desktop:w-[153px] z-0" />
         <ArrowButton className="absolute rounded-[50%] z-20 top-4 md:top-auto md:bottom-3 lg:bottom-4 xl:bottom-5 desktop:bottom-6 right-5 md:right-4 lg:right-5 xl:right-6 desktop:right-8" />
       </Link>
@@ -60,7 +60,7 @@ export default function OfferSection() {
     rounded-[40px] md:rounded-[35px] lg:rounded-[43px] xl:rounded-[60px] desktop:rounded-[65px]
     min-h-[254px] md:min-h-[156px] lg:min-h-[191px] xl:min-h-[269px] desktop:min-h-[323px]"
       >
-        <div className="flex flex-col relative z-10">
+        <article className="flex flex-col relative z-10">
           <p className="font-secondary italic text-xl md:text-sm lg:text-base xl:text-2xl desktop:text-3xl ">
             Oferta
           </p>
@@ -73,7 +73,7 @@ export default function OfferSection() {
             na specjalne zamówienie dla <br className="hidden lg:block" />
             wyjątkowych wydarzeń.
           </p>
-        </div>
+        </article>
         <Flower2Mobile className="md:hidden absolute z-0 bottom-0 right-5 w-[121px]" />
         <Flower2 className="hidden md:block absolute top-0 right-0 w-[94px] lg:w-[94px] xl:w-[132px] desktop:w-[171px] z-0" />
         <ArrowButton className="absolute rounded-[50%] z-20 top-4 md:top-auto md:bottom-3 lg:bottom-4 xl:bottom-5 desktop:bottom-6 right-5 md:right-4 lg:right-5 xl:right-6 desktop:right-8" />

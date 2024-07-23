@@ -36,7 +36,7 @@ export default function OfferSection({
       className="padding home-padding flex flex-col md:flex-row gap-7 md:gap-0 md:justify-between"
     >
       <div className="flex flex-col gap-7 xl:gap-10 desktop:gap-12 w-full md:w-[70.25%] lg:w-[56%]">
-        <div>
+        <header>
           <h3 className="font-medium md:!leading-snug text-4xl xl:text-5xl desktop:text-6xl ">
             {title}
           </h3>
@@ -51,11 +51,11 @@ export default function OfferSection({
               {text}
             </p>
           )}
-        </div>
+        </header>
 
         <div className="flex flex-col gap-7 md:gap-5 xl:gap-6 desktop:gap-7 w-full md:w-[75%]">
           {elements.map((element, index) => (
-            <div
+            <article
               key={index}
               className="flex gap-4 md:gap-3 xl:gap-4 desktop:gap-5"
             >
@@ -70,11 +70,11 @@ export default function OfferSection({
                   {element.text}
                 </p>
               </div>
-            </div>
+            </article>
           ))}
         </div>
 
-        <div>
+        <footer>
           <p className="text-lg md:text-sm xl:text-xl desktop:text-2xl">
             Szczegóły:
           </p>
@@ -95,7 +95,7 @@ export default function OfferSection({
               Zaproś nas do siebie -&gt;
             </p>
           </Link>
-        </div>
+        </footer>
       </div>
       <div className="md:hidden lg:block w-full lg:w-[35.1%]">
         <Image
