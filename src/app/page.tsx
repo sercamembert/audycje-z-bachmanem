@@ -17,6 +17,7 @@ import { Offer6 } from "@/components/Svgs";
 import { Offer7 } from "@/components/Svgs";
 import { Offer8 } from "@/components/Svgs";
 import ContactSection from "@/containers/home-page/contact-section";
+import NumioSection from "@/containers/home-page/numio-section";
 
 export default function Home() {
   const offerSections = [
@@ -113,6 +114,7 @@ export default function Home() {
         />
       ))}
       <ContactSection />
+      <NumioSection />
     </main>
   );
 }

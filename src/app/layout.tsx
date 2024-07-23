@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   description:
     "Wybierając „Audycje z Bachmanem”, zapewniasz  dzieciom nie tylko rozrywkę, ale i edukację na najwyższym poziomie.",
   authors: [{ name: "outofplace.space" }],
+  // audycjezbachmanem
 };
 
 export default function RootLayout({

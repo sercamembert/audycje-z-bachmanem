@@ -23,3 +23,4 @@ export { default as PhoneIcon } from "./PhoneIcon.svg";
 export { default as MessageIcon } from "./MessageIcon.svg";
 export { default as Contact } from "./Contact.svg";
 export { default as ContactStar } from "./ContactStar.svg";
+export { default as Numio } from "./Numio.svg";

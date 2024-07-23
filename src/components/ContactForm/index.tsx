@@ -122,7 +122,7 @@ export default function ContactFormHomePage() {
               <p>(+48) 507 171 517</p>
             </Link>
             <Link
-              href="callto:kontakt@audycjezbachmanem.pl "
+              href="mailto:kontakt@audycjezbachmanem.pl "
               className="bg-[#F4C4FD] max-w-max text-text flex items-center justify-center hover:scale-[1.02] ease-custom-bezier duration-500 gap-[8px] lg:gap-[5px] xl:gap-[6px] desktop:gap-[7px] px-[12px] lg:px-[14px] xl:px-[20px] desktop:px-[24px] py-[5px] lg:py-[6px] xl:py-[8px] desktop:py-[10px] rounded-[83px] lg:rounded-[60px] xl:rounded-[84px] desktop:rounded-[100px]"
             >
               <MessageIcon className="w-[18px] xl:w-6 desktop:w-[28px]" />
@@ -147,9 +147,11 @@ export default function ContactFormHomePage() {
                 placeholder=""
                 value={name}
                 onChange={(e) => handleNameChange(e.target.value)}
-                className={`peer h-full w-full border-b bg-transparent text-text transition-all border-text focus:outline-0 rounded-none
+                className="peer h-full w-full border-b bg-transparent text-text transition-all border-text focus:outline-0 rounded-none
                 text-[16px] md:text-[14px] lg:text-[13px] xl:text-[16px] 2xl:text-[18px] desktop:text-[21px]
-                pt-4 pb-[19px] md:pb-[17px] lg:pb-[22px] xl:pb-[28px] 2xl:pb-[32px] desktop:pb-[38px]`}
+                pt-4 pb-[19px] md:pb-[17px] lg:pb-[22px] xl:pb-[28px] 2xl:pb-[32px] desktop:pb-[38px]"
+                aria-labelledby="Imie"
+                id="Imie"
               />
               <label
                 className="after:content[''] pointer-events-none absolute left-0 flex h-full w-full
@@ -158,6 +160,7 @@ export default function ContactFormHomePage() {
         text-base lg:text-xs xl:text-lg desktop:text-xl
         peer-placeholder-shown:leading-[4.25] 
         peer-focus:leading-tight "
+                htmlFor="Imie"
               >
                 Imię i nazwisko
               </label>
@@ -170,6 +173,8 @@ export default function ContactFormHomePage() {
                 className={`peer h-full w-full border-b bg-transparent text-text transition-all border-text focus:border-text focus:outline-0 rounded-none
                 text-[16px] md:text-[14px] lg:text-[13px] xl:text-[16px] 2xl:text-[18px] desktop:text-[21px]
                 pt-4 pb-[19px] md:pb-[17px] lg:pb-[22px] xl:pb-[28px] 2xl:pb-[32px] desktop:pb-[38px]`}
+                aria-labelledby="email"
+                id="email"
               />
               <label
                 className="after:content[''] pointer-events-none absolute left-0 flex h-full w-full
@@ -178,6 +183,7 @@ export default function ContactFormHomePage() {
               text-base lg:text-xs xl:text-lg desktop:text-xl
               peer-placeholder-shown:leading-[4.25] 
               peer-focus:leading-tight "
+                htmlFor="email"
               >
                 Adres e-mail
               </label>
@@ -190,6 +196,8 @@ export default function ContactFormHomePage() {
                 className="peer h-full w-full border-b bg-transparent text-text transition-all border-text focus:border-text focus:outline-0 rounded-none
                 ont-secondary text-[16px] md:text-[14px] lg:text-[13px] xl:text-[16px] 2xl:text-[18px] desktop:text-[21px]
                 pt-4 pb-[19px] md:pb-[17px] lg:pb-[22px] xl:pb-[28px] 2xl:pb-[32px] desktop:pb-[38px]"
+                aria-labelledby="Instytucja"
+                id="Instytucja"
               />
               <label
                 className="after:content[''] pointer-events-none absolute left-0 flex h-full w-full
@@ -198,6 +206,7 @@ export default function ContactFormHomePage() {
                 text-base lg:text-xs xl:text-lg desktop:text-xl
                 peer-placeholder-shown:leading-[4.25] 
                 peer-focus:leading-tight "
+                htmlFor="Instytucja"
               >
                 Nazwa instytucji &nbsp;
                 <span className="opacity-80"> (opcjonalne)</span>
@@ -231,8 +240,11 @@ export default function ContactFormHomePage() {
                 className="peer resize-y h-full w-full border-b border-text bg-transparent text-text transition-all focus:border-text focus:outline-0 rounded-none
                  text-[16px] md:text-[14px] lg:text-[13px] xl:text-[16px] 2xl:text-[18px] desktop:text-[21px]
                 pt-6 pb-[34px] md:pb-[28px] lg:pb-[22px] xl:pb-[28px] 2xl:pb-[32px] desktop:pb-[50px]"
+                aria-labelledby="Wiadomość"
+                id="Wiadomosc"
               />
               <label
+                htmlFor="Wiadomosc"
                 className="after:content[''] pointer-events-none absolute left-0 flex h-full w-full
                 -top-[14px] md:-top-[5px] lg:-top-[13px] xl:-top-[20px] 2xl:-top-[24px] desktop:-top-[31px]
                 select-none !overflow-visible truncate leading-tight  transition-all 
