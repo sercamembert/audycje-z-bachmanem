@@ -149,7 +149,7 @@ const Navbar = () => {
 
       <header
         className={`padding fixed top-0 z-[999] flex h-[70px] w-full items-center justify-between lg:h-[80px] xl:h-[100px] ultra:h-[140px] ${
-          isScrolled ? "bg-white" : ""
+          isScrolled && !isOpen ? "bg-white" : ""
         }`}
       >
         <Logo

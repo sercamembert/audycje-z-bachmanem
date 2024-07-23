@@ -9,9 +9,7 @@ export default function HeroSection() {
     <section className="relative flex flex-col gap-6 md:gap-[52px] lg:gap-11 xl:gap-14 desktop:gap-[70px]">
       <div className="relative padding">
         <div className="relative max-w-max">
-          <h1 className="font-medium inline-block relative z-10 text-5xl lg:text-[51px] xl:text-7xl desktop:text-[86px] leading-[55px] lg:leading-[61px] xl:leading-[86px] desktop:leading-[103px]">
-            Audycje z Bachmanem
-          </h1>
+          <h1 className="heading">Audycje z Bachmanem</h1>
           <Puddle className="absolute z-0 left-0 md:left-auto md:-right-1 -bottom-2 xl:-bottom-4 desktop:-bottom-5 w-[279px] lg:w-[320px] xl:w-[451px] desktop:w-[541px]" />
         </div>
         <p className="font-secondary italic text-4xl xl:text-5xl desktop:text-6xl leading-[46px] xl:leading-[48px] desktop:leading-[74px] mt-3 lg:mt-1 xl:mt-[5px]">
@@ -24,7 +22,7 @@ export default function HeroSection() {
         </p>
         <div className="flex gap-1 lg:gap-3 xl:gap-4 desktop:gap-5 mt-3 lg:mt-3 xl:mt-[14px] desktop:mt-5">
           <Button
-            className="bg-[#EFEEFF]"
+            className="bg-[#F6E6F9]"
             size="SMALL"
             text="#Nauka i zabawa"
             variant="DEFAULT"
@@ -41,7 +39,7 @@ export default function HeroSection() {
       {/* Video section */}
       <div className="hidden md:block absolute right-0 -top-[61px] lg:-top-[77px] xl:-top-[110px] desktop:-top-[130px]">
         <div className="flex items-end">
-          <p className="font-light text-[#6A6A6A] text-xs xl:text-lg desktop:text-xl md:mb-[71px] lg:mb-[88px] xl:mb-[123px] desktop:mb-[150px]">
+          <p className="font-light text-text-light text-xs xl:text-lg desktop:text-xl md:mb-[71px] lg:mb-[88px] xl:mb-[123px] desktop:mb-[150px]">
             Zobacz nasz krótki <br />
             film promocyjny!
           </p>

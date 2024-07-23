@@ -8,3 +8,6 @@ export { default as Line } from "./Line.svg";
 export { default as Blob } from "./Blob.svg";
 export { default as Video } from "./Video.svg";
 export { default as VideoMobile } from "./VideoMobile.svg";
+export { default as Star } from "./Star.svg";
+export { default as Sunstar } from "./Sunstar.svg";
+export { default as Rainbow } from "./Rainbow.svg";

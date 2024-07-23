@@ -8,7 +8,7 @@ export default function PromotionalVideo() {
   return (
     <div className="w-full">
       <div className="md:hidden flex mt-3 justify-between mr-auto">
-        <p className="font-light text-[#6A6A6A] text-lg pt-6 max-w-[165px]">
+        <p className="font-light text-text-light text-lg pt-6 max-w-[165px]">
           Zobacz nasz krótki film promocyjny!
         </p>
         <Image

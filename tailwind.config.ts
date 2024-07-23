@@ -21,6 +21,7 @@ const config: Config = {
       colors: {
         primary: "#F0ABFC",
         text: "#171717",
+        "text-light": "#6A6A6A",
       },
       fontFamily: {
         primary: ["var(--font-primary)"],
