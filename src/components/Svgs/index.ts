@@ -19,3 +19,7 @@ export { default as Offer6 } from "./Offer6.svg";
 export { default as Offer7 } from "./Offer7.svg";
 export { default as Offer8 } from "./Offer8.svg";
 export { default as Dot } from "./Dot.svg";
+export { default as PhoneIcon } from "./PhoneIcon.svg";
+export { default as MessageIcon } from "./MessageIcon.svg";
+export { default as Contact } from "./Contact.svg";
+export { default as ContactStar } from "./ContactStar.svg";
