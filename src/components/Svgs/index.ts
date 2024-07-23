@@ -11,3 +11,4 @@ export { default as VideoMobile } from "./VideoMobile.svg";
 export { default as Star } from "./Star.svg";
 export { default as Sunstar } from "./Sunstar.svg";
 export { default as Rainbow } from "./Rainbow.svg";
+export { default as Shuriken } from "./Shuriken.svg";

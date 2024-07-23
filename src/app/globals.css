@@ -14,4 +14,8 @@
   .paragraph {
     @apply text-lg md:text-xs lg:text-sm xl:text-xl desktop:text-2xl;
   }
+
+  .plain-text {
+    @apply text-lg lg:text-sm xl:text-xl desktop:text-2xl;
+  }
 }

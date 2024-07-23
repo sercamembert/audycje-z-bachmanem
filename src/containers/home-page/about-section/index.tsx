@@ -3,7 +3,7 @@ import React from "react";
 
 export default function AboutSection() {
   return (
-    <div className="padding flex flex-col gap-14 lg:gap-0">
+    <section className="padding flex flex-col gap-14 lg:gap-0">
       <div className="mx-auto text-center flex flex-col lg:gap-3 xl:gap-4 desktop:gap-5">
         <h2 className="heading">
           Dlaczego <span className="font-secondary italic">MY?</span>
@@ -16,7 +16,7 @@ export default function AboutSection() {
         </p>
       </div>
 
-      <div className="flex flex-col items-center lg:items-start md:flex-row md:flex-wrap md:justify-center lg:flex-nowrap lg:justify-between gap-12 md:gap-10 lg:h-[305px] xl:h-[430px] h-[516px]">
+      <div className="flex flex-col items-center lg:items-start md:flex-row md:flex-wrap md:justify-center lg:flex-nowrap lg:justify-between gap-12 md:gap-10 lg:h-[305px] xl:h-[430px] desktop:h-[516px]">
         <div className="flex flex-col items-center gap-2 max-w-[340px] md:max-w-[291px] lg:max-w-[206px] xl:max-w-[291px] desktop:max-w-[350px]">
           <Star className="w-[109px] lg:w-[78px] xl:w-[109px] desktop:w-[130px]" />
           <h3 className="font-medium text-4xl lg:text-2xl xl:text-4xl desktop:text-[43px]">
@@ -48,6 +48,6 @@ export default function AboutSection() {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
