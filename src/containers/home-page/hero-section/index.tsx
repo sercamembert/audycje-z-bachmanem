@@ -3,6 +3,7 @@ import OfferSection from "./offert-section";
 import Button from "@/components/Buttons/Button";
 import { Puddle, Line, Blob } from "@/components/Svgs";
 import PromotionalVideo from "@/components/PromotionalVideo";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -41,10 +42,14 @@ export default function HeroSection() {
       {/* Video section */}
       <aside className="hidden md:block absolute right-0 -top-[61px] lg:-top-[77px] xl:-top-[110px] desktop:-top-[130px]">
         <div className="flex items-end">
-          <p className="font-light text-text-light text-xs xl:text-lg desktop:text-xl md:mb-[71px] lg:mb-[88px] xl:mb-[123px] desktop:mb-[150px]">
+          <Link
+            href="https://www.facebook.com/reel/467237992919899"
+            target="_blank"
+            className="font-light text-text-light text-xs xl:text-lg desktop:text-xl md:mb-[71px] lg:mb-[88px] xl:mb-[123px] desktop:mb-[150px]"
+          >
             Zobacz nasz krótki <br />
             film promocyjny!
-          </p>
+          </Link>
           {/* md:h-[346px] lg:h-[375px] xl:h-[536px] desktop:h-[655px] */}
           <Blob className="md:w-[153px] lg:w-[190px] xl:w-[270px] desktop:w-[320px]" />
         </div>
