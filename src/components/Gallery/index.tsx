@@ -15,7 +15,7 @@ import NextJsImage from "@/components/NextJsImage";
 const Gallery = () => {
   const [index, setIndex] = useState(-1);
   const images = [];
-  for (let i = 5; i >= 1; i--) {
+  for (let i = 1; i <= 21; i++) {
     const image =
       require(`../../../public/images/galleryPage/${i}.webp`).default;
     images.push(image);
