@@ -19,7 +19,7 @@ const config: Config = {
         ultra: "2560px",
       },
       colors: {
-        primary: "#F0ABFC",
+        primary: "#8D1A8F",
         text: "#171717",
         "text-light": "#6A6A6A",
       },

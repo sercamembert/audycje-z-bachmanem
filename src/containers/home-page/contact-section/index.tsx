@@ -6,7 +6,7 @@ export default function ContactSection() {
   return (
     <section className="padding home-padding" id="kontakt">
       <div
-        className="flex relative overflow-hidden flex-col gap-2 md:gap-3 lg:gap-5 xl:gap-6 desktop:gap-7 bg-[#F0ABFC] rounded-[40px] md:rounded-[35px] lg:rounded-[43px] xl:rounded-[60px] desktop:rounded-[65px]
+        className="flex relative overflow-hidden flex-col gap-2 md:gap-3 lg:gap-5 xl:gap-6 desktop:gap-7 bg-[#8D1A8F] rounded-[40px] md:rounded-[35px] lg:rounded-[43px] xl:rounded-[60px] desktop:rounded-[65px]
       px-7 md:px-16 lg:px-[50px] xl:px-[95px] desktop:px-[112px]
       pt-6 md:pt-10 lg:pt-12 xl:pt-14 desktop:pt-16
       pb-10 md:pb-16 lg:pb-[138px] xl:pb-[206px] desktop:pb-[247px]

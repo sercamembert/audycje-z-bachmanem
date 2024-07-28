@@ -149,7 +149,7 @@ const Navbar = () => {
 
       <header
         className={`padding fixed top-0 z-[999] flex h-[70px] w-full items-center justify-between lg:h-[80px] xl:h-[100px] ultra:h-[140px] ${
-          isScrolled && !isOpen ? "bg-white" : ""
+          isScrolled && !isOpen ? "bg-[#F1EBEB]" : ""
         }`}
       >
         <Link href="/" aria-label="audycjezbachmanem.pl">
@@ -196,7 +196,7 @@ const Navbar = () => {
             className="duration-300 hover:opacity-85 lg:text-base xl:text-lg desktop:text-xl"
           >
             <Button
-              className="bg-[#F0ABFC] text-black"
+              className="bg-[#8D1A8F] text-black"
               size="LARGE"
               text="Zaproś nas do siebie"
               variant="DEFAULT"

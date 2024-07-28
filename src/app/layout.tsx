@@ -33,7 +33,7 @@ export default function RootLayout({
         className={cn(
           Manrope.variable,
           playFairDisplaySC.variable,
-          "overflow-x-hidden font-primary text-text"
+          "overflow-x-hidden font-primary text-text bg-[#F1EBEB]"
         )}
       >
         <Navbar />

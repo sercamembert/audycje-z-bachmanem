@@ -24,7 +24,7 @@ export default function OpinionsSection() {
           </p>
         </header>
         <article
-          className="bg-[#B12EFC] relative overflow-hidden lg:w-[52%] text-white rounded-[40px] md:rounded-[35px] lg:rounded-[43px] xl:rounded-[60px] desktop:rounded-[65px]
+          className="bg-[#E9A61E] relative overflow-hidden lg:w-[52%] text-white rounded-[40px] md:rounded-[35px] lg:rounded-[43px] xl:rounded-[60px] desktop:rounded-[65px]
           p-6 lg:7 xl:p-10 desktop:p-11 lg:pb-11 xl:pb-16 desktop:pb-20"
         >
           <p className="font-medium text-2xl lg:text-xl xl:text-3xl desktop:text-4xl xl:leading-snug desktop:leading-snug">
@@ -47,7 +47,7 @@ export default function OpinionsSection() {
           Opinie naszych <br /> klientów:
         </p>
         <article
-          className="bg-[#6866E9] w-full md:w-[50.5%] lg:w-[44%]  text-white rounded-[40px] md:rounded-[35px] lg:rounded-[43px] xl:rounded-[60px] desktop:rounded-[65px]
+          className="bg-[#8D1A8F] w-full md:w-[50.5%] lg:w-[44%]  text-white rounded-[40px] md:rounded-[35px] lg:rounded-[43px] xl:rounded-[60px] desktop:rounded-[65px]
         p-6 lg:7 xl:p-10 desktop:p-11 lg:pb-11 xl:pb-16 desktop:pb-20"
         >
           <p className="font-medium text-2xl lg:text-xl xl:text-3xl desktop:text-4xl xl:leading-snug desktop:leading-snug">
@@ -64,7 +64,7 @@ export default function OpinionsSection() {
           </p>
         </article>
         <article
-          className="bg-[#647B7C] hidden md:block w-full md:w-[45%] lg:w-[36%]  text-white rounded-[40px] md:rounded-[35px] lg:rounded-[43px] xl:rounded-[60px] desktop:rounded-[65px]
+          className="bg-[#F59FB2] hidden md:block w-full md:w-[45%] lg:w-[36%]  text-white rounded-[40px] md:rounded-[35px] lg:rounded-[43px] xl:rounded-[60px] desktop:rounded-[65px]
         p-6 lg:7 xl:p-10 desktop:p-11 lg:pb-11 xl:pb-16 desktop:pb-20"
         >
           <p className="font-medium text-2xl lg:text-xl xl:text-3xl desktop:text-4xl xl:leading-snug desktop:leading-snug">

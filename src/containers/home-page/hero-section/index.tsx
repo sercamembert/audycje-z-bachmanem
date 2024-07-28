@@ -25,13 +25,13 @@ export default function HeroSection() {
         </p>
         <div className="flex gap-1 lg:gap-3 xl:gap-4 desktop:gap-5 mt-3 lg:mt-3 xl:mt-[14px] desktop:mt-5">
           <Button
-            className="bg-[#F6E6F9]"
+            className="bg-[#F59FB2]"
             size="SMALL"
             text="#Nauka i zabawa"
             variant="DEFAULT"
           />
           <Button
-            className="bg-[#EFEEFF]"
+            className="bg-[#F59FB2]"
             size="SMALL"
             text="#Magia Muzyki"
             variant="DEFAULT"
