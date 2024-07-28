@@ -117,7 +117,6 @@ export default function Home() {
         />
       ))}
       <ContactSection />
-      <NumioSection />
     </main>
   );
 }
