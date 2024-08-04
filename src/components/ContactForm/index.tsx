@@ -116,14 +116,14 @@ export default function ContactFormHomePage() {
           <div className="flex flex-col gap-3 xl:gap-4 desktop:gap-5">
             <Link
               href="callto:(+48) 507 171 517"
-              className="bg-[#F59FB2] max-w-max text-text flex items-center justify-center hover:scale-[1.02] ease-custom-bezier duration-500 gap-[8px] lg:gap-[5px] xl:gap-[6px] desktop:gap-[7px] px-[12px] lg:px-[14px] xl:px-[20px] desktop:px-[24px] py-[5px] lg:py-[6px] xl:py-[8px] desktop:py-[10px] rounded-[83px] lg:rounded-[60px] xl:rounded-[84px] desktop:rounded-[100px]"
+              className="bg-[#ad23af] max-w-max text-text flex items-center justify-center hover:scale-[1.02] ease-custom-bezier duration-500 gap-[8px] lg:gap-[5px] xl:gap-[6px] desktop:gap-[7px] px-[12px] lg:px-[14px] xl:px-[20px] desktop:px-[24px] py-[5px] lg:py-[6px] xl:py-[8px] desktop:py-[10px] rounded-[83px] lg:rounded-[60px] xl:rounded-[84px] desktop:rounded-[100px]"
             >
               <PhoneIcon className="size-[14px] xl:size-[19px] desktop:size-[22px]" />
               <p>(+48) 507 171 517</p>
             </Link>
             <Link
               href="mailto:kontakt@audycjezbachmanem.pl "
-              className="bg-[#F59FB2] max-w-max text-text flex items-center justify-center hover:scale-[1.02] ease-custom-bezier duration-500 gap-[8px] lg:gap-[5px] xl:gap-[6px] desktop:gap-[7px] px-[12px] lg:px-[14px] xl:px-[20px] desktop:px-[24px] py-[5px] lg:py-[6px] xl:py-[8px] desktop:py-[10px] rounded-[83px] lg:rounded-[60px] xl:rounded-[84px] desktop:rounded-[100px]"
+              className="bg-[#ad23af] max-w-max text-text flex items-center justify-center hover:scale-[1.02] ease-custom-bezier duration-500 gap-[8px] lg:gap-[5px] xl:gap-[6px] desktop:gap-[7px] px-[12px] lg:px-[14px] xl:px-[20px] desktop:px-[24px] py-[5px] lg:py-[6px] xl:py-[8px] desktop:py-[10px] rounded-[83px] lg:rounded-[60px] xl:rounded-[84px] desktop:rounded-[100px]"
             >
               <MessageIcon className="w-[18px] xl:w-6 desktop:w-[28px]" />
               <p>kontakt@audycjezbachmanem.pl</p>
